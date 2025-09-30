@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-stone-950 text-stone-100 font-sans antialiased;
+}
+
+a {
+  @apply text-brand-400 hover:text-brand-300;
+}
+
+button {
+  @apply font-medium;
+}
+
+input, textarea, select {
+  @apply bg-stone-900 text-stone-100;
+}
